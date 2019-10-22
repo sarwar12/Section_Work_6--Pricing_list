@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*Bootstrap offset*/
+.col-md-offset-3{
+	margin-left: 25%;
+}
+/*Pricing section start*/
+h1, h2, h3, h4, h5, h6 {
+	color: #333;
+}
+.section-padding{
+	padding: 80px 0;
+}
+.section-title{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.section-title h2{
+	font-weight: 700;
+}
+.section-title h2 span {
+	color: #2fa55e;
+}
+.single-pricing-box {
+	border: 1px solid#ddd;
+	padding: 20px;
+	text-align: center;
+}
+.single-pricing-box h3 {
+	text-transform: uppercase;
+}
+.pricing-icon {
+  margin-bottom: 20px;
+}
+.pricing-icon img {
+  max-width: 85px;
+}
+.pricing-list ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-left: 20px;
+	line-height: 25px;
+}
+.pricing-list {
+  text-align: left;
+  margin-bottom: 30px;
+}
+.single-pricing-box h3.pricing-count {
+  text-transform: none;
+}
+a.bordered-btn {
+	display: inline-block;
+	border: 1px solid #2fa55e;
+	border-radius: 50px;
+	padding: 10px 30px;
+	color: #333;
+}
+/*Custom Fpnt Awesome Icon use CSS*/
+.pricing-list ul li:before {
+	font-family: "Font Awesome 5 Free";
+	content: '\f14a';
+	color: #2fa55e;
+	padding-right: 10px;
+}
+.pricing-list ul li.off:before{
+	font-family:"Font Awesome 5 Free";
+	content: '\f00d';
+	color: #eb3036;
+}
+/*Custom Fpnt Awesome Icon use CSS*/
+
+.single-pricing-box:hover {
+	border-color: #2fa55e;
+	box-shadow: 0 0 50px #ccc;
+}
+.single-pricing-box{
+	-webkit-transition: 0.2s;
+	transition:0.2s;
+}
+.single-pricing-box:hover .pricing-icon img {
+	opacity: .7;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+a.bordered-btn:hover {
+	color: #fff;
+	background: #2fa55e;
+	text-decoration: none;
+}
+.bordered-btn {
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
+.pricing-list ul li {
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+.pricing-list ul li:hover {
+  padding-left: 7px;
+}
+/*Pricing section Stop*/
